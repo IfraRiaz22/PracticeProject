@@ -1,0 +1,272 @@
+
+  #ListOfMobSpecification {
+    border-color: rgba(235, 237, 236, 1);
+  }
+  #ListOfMobSpecification a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+  }
+  #ListOfMobSpecification img {
+    float: right;
+    margin-top: 8px;
+  }
+  #cardHeader {
+    background-color: rgba(235, 237, 236, 1);
+  }
+  #arcticleCard h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  #arcticleCard p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  #date {
+    font-size: 12px;
+    font-weight: 450;
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .rating {
+    color: rgb(242, 164, 22);
+    font-size: 13px;
+    margin-left: 25px;
+  }
+  .rating span {
+    font-size: 14px;
+    color: black;
+  }
+  #phoneImage {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 5px;
+  }
+  #phoneImage img {
+    max-width: 100%;
+    height: 300px;
+  }
+  #specificationCard {
+    background-color: rgba(27, 142, 242, 0.1);
+    height: 170px;
+    border: 1px solid rgb(228, 247, 243);
+    border-radius: 12px;
+  }
+  #specificationCard card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  #specificationCard p {
+    font-size: 16px;
+  }
+  #myTabs a {
+    text-decoration: none;
+    color: black;
+  }
+  #myTabs{
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+  }
+  #usedMobiles {
+    border-radius: 50px;
+    padding: 12px;
+  }
+  #compareButton2 {
+    border-radius: 50px;
+    padding: 12px;
+    border-color: rgb(235, 237, 236);
+  }
+  #heartCard {
+    background-color: rgba(255, 179, 37, 0.2);
+    height: 200px;
+    border-color: rgba(255, 179, 37, 0.2);
+    border-radius: 12px;
+  }
+  #heartCard card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  #googleAd4 {
+    background-color: rgb(206, 206, 206);
+    height: 200px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .mobCards {
+    border-radius: 12px;
+    border-color: rgb(235, 237, 236);
+    /* height: 374px; */
+  }
+  .mobCards p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  #compareButton {
+    border-radius: 30px;
+    border: 1px solid rgb(235, 237, 236);
+    background-color: white;
+    width: 129px;
+    height: 29;
+    /* padding-left: 10px;
+  padding-right: 10px; */
+  }
+  .cart-icon {
+    position: absolute;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3%;
+  }
+  #googleAd {
+    background-color: rgb(206, 206, 206);
+    height: 158px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    #colRight {
+      padding-left: 4rem;
+    }
+  }
+  .sonyXperia{
+    display: flex;
+    justify-content: space-between;
+  }
+  #footerDiv a{
+    text-decoration: none;
+    color: black;
+  
+  }
+  #arcticleCard a{
+    text-decoration: none;
+    color: black;
+  }
+  .custom-table-responsive {
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .custom-table thead tr,
+  .custom-table thead th {
+    border-top: none;
+    border-bottom: none !important;
+    font-size: 12px;
+    letter-spacing: .1rem;
+  }
+
+  .custom-table tbody th small,
+  .custom-table tbody td small {
+    color: #b3b3b3;
+    font-weight: 300;
+  }
+  
+  .custom-table tbody tr.spacer td {
+    padding: 0 !important;
+    height: 10px;
+    border-radius: 0 !important;
+    background: transparent !important;
+  }
+  
+  .custom-table thead th {
+    background-color: #efefef;
+    color: black;
+  }
+  
+
+
+
+  /* comment section css */
+
+
+  /* #comment-section {
+    display: grid;
+    place-items: center;
+    font-family: "Source Sans Pro", sans-serif;
+  } */
+  #card {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: white;
+    border: 0px white;
+   
+  }
+
+  .media img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .reply a {
+    text-decoration: none;
+  }
+  .sub-heading{
+    background: linear-gradient(to left, #fffdfd, rgba(235, 237, 236, 1));
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 18px;
+
+  }
+  .custom-hr {
+    margin-top: 0; 
+ 
+  }
+  .sub-heading-text p{
+    font-size: 16px;
+  }
+  #footerDiv p{
+    font-size: 16px;
+  }
+
+  .inline-elements {
+    display: inline-block;
+  }
+
+  #myTextarea{
+    border-color: lightgray;
+    border-radius: 10px;
+    height: 6rem;
+  }
+
+  .btn-warning{
+    border-radius: 20px;
+    width: 6rem;
+  }
+
+  @media (min-width: 576px)
+  {
+    #chat-ps-5{
+      padding-left: 2rem;
+    }
+  }

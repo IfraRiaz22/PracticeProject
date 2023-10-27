@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <!-- Style -->
+
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="ProductDetail1.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="black-bar">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-12">
+            <h6 class="text-white mt-1">
+              <i class="fas fa-map-marker-alt"></i> Current Location:
+              Rawalpindi, Pakistan
+              <a class="ms-2" style="color: white">Change</a>
+            </h6>
+          </div>
+          <div class="col-md-6 col-12 d-flex justify-content-md-end mt-1 py-2">
+            <i class="fa fa-user me-2 mt-1"></i>
+            <a href="#" class="text-white me-2" style="text-decoration: none"
+              ><h6>Login</h6></a
+            >
+            <div class="vertical-bar"></div>
+            <a href="#" class="text-white ms-2" style="text-decoration: none"
+              ><h6>Signup</h6></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-2">
+        <nav class="navbar navbar-expand-xl bg-body">
+          <div class="container-fluid">
+            <p style="font-size: 32px; font-weight: 600" class="navbar-brand" href="#">Phone Pulse</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="d-flex flex-grow-1" role="search">
+                <input class="form-control me-2 flex-grow-1" type="search" placeholder="Search" aria-label="Search" style="border-radius: 20px; max-width: 300px" />
+              </form>
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Mobile Phones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Upcoming Mobiles</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Compare Mobiles</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn ml-3" type="submit" style="background-color: rgba(255, 179, 37, 1); border-radius: 20px; font-size: 16px;">
+                    Sell Your Mobile
+                  </button>
+                </li>
+              </ul>
+              <!-- Add login and signup links here -->
+              <ul class="navbar-nav d-xl-none ms-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white" style="text-decoration: none"><h6>Login</h6></a>
+                </li>
+                <li class="nav-item">
+                  <div class="vertical-bar"></div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white" style="text-decoration: none"><h6>Signup</h6></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div
+              class="card"
+              id="ListOfMobSpecification"
+              style="min-width: 13rem"
+            >
+              <div
+                class="card-header"
+                style="font-size: 18px; font-weight: 600"
+                id="cardHeader"
+              >
+                Mobile Brands
+              </div>
+              <ul class="list-group list-group-flush">
+                <a href="#">
+                  <li class="list-group-item">
+                    Apple iPhone <img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    Samsung Mobiles <img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    Oppo Mobiles <img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    Vivo Mobiles<img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    Xiaomi Mobiles<img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    Infinix Mobiles<img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    Tecno Mobiles<img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    Realme Mobiles<img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">
+                    OnePlus Mobiles<img src="./images/Vector 1.png" alt="" />
+                  </li>
+                </a>
+                <a href="#">
+                  <li class="list-group-item">View All</li>
+                </a>
+              </ul>
+            </div>
+
+            <div class="mt-4" id="arcticleCard" style="min-width: 13rem">
+              <a href="#">
+                <h4 style="font-size: 24px; font-weight: 600">Articles</h4>
+              </a>
+
+              <div class="card mb-0 border-0">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img
+                      src="./images/samsung flip.png"
+                      class="img-fluid rounded-start mt-4"
+                      alt="..."
+                      style="height: 4rem"
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Samsung Galaxy Z Flip5 leaks</h5>
+                      <p>Samsung Galaxy Z Flip5 price leaks Looks like...</p>
+                      <p id="date">June 24, 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-0 border-0">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <img
+                      src="./images/pop up phone.png"
+                      class="img-fluid rounded-start mt-4"
+                      alt="..."
+                      style="height: 4rem"
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">Honor 90 pops up on Amazon</h5>
+                      <p>The device is listed at £450 for its 8GB RAM...</p>
+                      <p id="date">June 24, 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-0 border-0">
+                <div class="row g-0">
+                  <div class="col-md-3">
+                    <img
+                      src="./images/one pus 12.png"
+                      class="img-fluid rounded-start mt-4"
+                      alt="..."
+                      style="height: 4rem"
+                    />
+                  </div>
+                  <div class="col-md-9">
+                    <div class="card-body">
+                      <h5 class="card-title">OnePlus 12 details surface</h5>
+                      <p>Fingers crossed for a proper telephoto camer...</p>
+                      <p id="date">June 24, 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-9" id="colRight">
+            <div class="container">
+              <div class="sonyXperia">
+                <h5 style="font-size: 24px; font-weight: 600">
+                  Sony Xperia 1 V 3GB Ram + 32 GB Storage
+                </h5>
+                <div class="rating">
+                  <i class="fa fa-star clicked"></i>
+                  <i class="fa fa-star clicked"></i>
+                  <i class="fa fa-star clicked"></i>
+                  <i class="fa fa-star clicked"></i>
+                  <i class="fa fa-star clicked"></i>
+                  <span style="color: black">4.8</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-lg-3 col-md-12">
+                <div class="card" id="phoneImage">
+                  <img src="./images/sony 32 gb.png" alt="" />
+                </div>
+              </div>
+
+              <div class="col-lg-9 col-md-12">
+                <div class="row">
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body">
+                        <img class="mt-3" src="./images/calender.png" alt="" />
+                        <div class="mt-3">
+                          <p class="mb-0">Released</p>
+                          <p class="mb-0"><strong>28 July, 2023</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body">
+                        <img class="mt-3" src="./images/weight.png" alt="" />
+                        <div class="mt-3">
+                          <p class="mb-0">Weight</p>
+                          <p class="mb-0"><strong>187</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body">
+                        <img class="mt-3" src="./images/android.png" alt="" />
+                        <div class="mt-3">
+                          <p class="mb-0">OS</p>
+                          <p class="mb-0"><strong>Android 13</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body">
+                        <img class="mt-3" src="./images/storage.png" alt="" />
+                        <div class="mt-3">
+                          <p class="mb-0">Storage</p>
+                          <p class="mb-0"><strong>256GB/516GB</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body mt-3">
+                        <img src="./images/display.png" alt="" />
+                        <div class="mt-3">
+                          <p class="mb-0">Display</p>
+                          <p class="mb-0"><strong>9.0</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body">
+                        <img
+                          class="mt-3"
+                          src="./images/main camera.png"
+                          alt=""
+                        />
+                        <div class="mt-3">
+                          <p class="mb-0">Main Camera</p>
+                          <p class="mb-0"><strong>48 MP</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body">
+                        <img class="mt-3" src="./images/ram.png" alt="" />
+                        <div class="mt-3">
+                          <p class="mb-0">Ram</p>
+                          <p class="mb-0"><strong>3 GB</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3">
+                    <div class="card text-center" id="specificationCard">
+                      <div class="card-body">
+                        <img class="mt-3" src="./images/bettery.png" alt="" />
+                        <div class="mt-3">
+                          <p class="mb-0">Battery</p>
+                          <p class="mb-0"><strong>28 July, 2023</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-lg-9 col-md-12">
+                <ul class="nav border-0" id="myTabs" role="tablist">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      id="specifications-tab"
+                      data-toggle="tab"
+                      href="#specifications"
+                      role="tab"
+                      aria-controls="specifications"
+                      aria-selected="true"
+                      >Specifications</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      id="reviews-tab"
+                      data-toggle="tab"
+                      href="#reviews"
+                      role="tab"
+                      aria-controls="reviews"
+                      aria-selected="false"
+                      >Reviews</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      id="opinions-tab"
+                      data-toggle="tab"
+                      href="#opinions"
+                      role="tab"
+                      aria-controls="opinions"
+                      aria-selected="false"
+                      >Opinions</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      id="compare-tab"
+                      data-toggle="tab"
+                      href="#compare"
+                      role="tab"
+                      aria-controls="compare"
+                      aria-selected="false"
+                      >Compare</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      id="pictures-tab"
+                      data-toggle="tab"
+                      href="#pictures"
+                      role="tab"
+                      aria-controls="pictures"
+                      aria-selected="false"
+                      >Pictures</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      id="prices-tab"
+                      data-toggle="tab"
+                      href="#prices"
+                      role="tab"
+                      aria-controls="prices"
+                      aria-selected="false"
+                      >Prices</a
+                    >
+                  </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="specifications"
+                    role="tabpanel"
+                    aria-labelledby="specifications-tab"
+                  >
+                    <div class="tab-body">
+                      <div class="heading mt-4">
+                        <h5 style="font-size: 24px; font-weight: 600">
+                          Sony Xperia 1 V Specifications
+                        </h5>
+                      </div>
+                      <p class="mt-3">
+                        Sony Mobiles Always Tries To Delivers The Most Advanced
+                        And Appealing Smartphone into The Market. Sony Mobiles
+                        Has Taken A Step Further into The Technology. Sony
+                        Xperia 1 V Coming In Market By Sony Mobiles. The Launch
+                        Date Of Sony Xperia 1 V Is 2023, July 28. Introducing
+                        Necessary Specifications & Features. The Sony Xperia 1 V
+                        Price In Pakistan Is Rs. 299,999 While In USD It Is
+                        $1,349. To Find Out More About Specs And Price Lets Have
+                        A Look Below.
+                      </p>
+                      <div class="tab-data">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Launch</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Launch Date</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>2023, July 28</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Network</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Technology</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>GSM / HSPA / LTE / 5G</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>2G bands</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>3G bands</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>4G bands</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 19, 20, 25, 26,
+                                28, 29, 32, 34, 38, 39, 40, 41, 46, 66 - Europe
+                                1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 19, 20, 25, 26,
+                                28, 29, 30, 32, 34, 38, 39, 40, 41, 46, 48, 66,
+                                71 - USA 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 19,
+                                20, 25, 26, 28, 29, 34, 38, 39, 40, 41, 46, 66 -
+                                Asia
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>5G bands</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                1, 3, 5, 7, 8, 20, 28, 38, 40, 41, 77, 78
+                                SA/NSA/Sub6 - Europe 1, 2, 3, 5, 7, 8, 20, 25,
+                                28, 30, 38, 40, 41, 66, 71, 77, 78 SA/NSA/Sub6 -
+                                USA 1, 3, 5, 7, 8, 28, 38, 40, 41, 77, 78, 79
+                                SA/NSA/Sub6 - Asia
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Speed</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>HSPA, LTE-A, 5G</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Body</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Dimensions</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>165 x 71 x 8.3 mm (6.50 x 2.80 x 0.33 in)</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Weight</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>187 g (6.60 oz)</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Build</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Glass front (Gorilla Glass Victus 2), glass back
+                                (Gorilla Glass Victus), aluminum frame
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>SIM</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Nano-SIM and eSIM or Dual SIM (Nano-SIM, dual
+                                stand-by)
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Colors</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Black, Khaki Green, Platinum Silver</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Display</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Type</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>OLED, 1B colors, 120Hz, HDR BT.2020</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Size</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                6.5 inches, 98.6 cm2 (~84.2% screen-to-body
+                                ratio)
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Resolution</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                1644 x 3840 pixels, 21:9 ratio (~643 ppi
+                                density)
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Platform</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>OS</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Android 13</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Chipset</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>CPU</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Octa-core (1x3.2 GHz Cortex-X3 & 2x2.8 GHz
+                                Cortex-A715 & 2x2.8 GHz Cortex-A710 & 3x2.0 GHz
+                                Cortex-A510)
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>GPU</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Adreno 740</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Memory</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>RAM</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>12GB</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Storage</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>256GB/512GB</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Card Slot</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>microSDXC (uses shared SIM slot)</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Main Camera</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Triple</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                48 MP, f/1.9, 24mm (wide), 1/1.35", 1.12µm, Dual
+                                Pixel PDAF, OIS 12 MP, f/2.3, 85mm (telephoto),
+                                f/2.8, 125mm (telephoto), 1/3.5", Dual Pixel
+                                PDAF, 3.5x-5.2x continuous optical zoom, OIS 12
+                                MP, f/2.2, 16mm (ultrawide), 1/2.5", Dual Pixel
+                                PDAF
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Features</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Zeiss optics, Zeiss T* lens coating, LED flash,
+                                panorama, HDR, eye tracking
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Video</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                4K@24/25/30/60/120fps HDR, 1080p@30/60/120fps;
+                                5-axis gyro-EIS, OIS
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Selfie Camera</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Single</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>12 MP, f/2.0, 24mm (wide), 1/2.9", 1.25µm</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Features</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>HDR</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Video</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>4K@30fps, 1080p@30/60fps, 5-axis gyro-EIS</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Battery</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Capacity</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Li-Po 5000 mAh, non-removable</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Charging</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                30W wired, PD3.0, PPS, 50% in 30 min
+                                (advertised) Wireless Reverse wireless
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Smartphone Features</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Sensors</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Fingerprint (side-mounted), accelerometer, gyro,
+                                proximity, barometer, compass, color spectrum,
+                                Native Sony Alpha camera support
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Sound</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Loudspeaker</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Yes, with stereo speakers</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>3.5mm jack</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Yes, 24-bit/192kHz audio Dynamic vibration
+                                system
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Connectivity</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>WLAN</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band, Wi-Fi
+                                Direct, DLNA
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Bluetooth</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>5.3, A2DP, LE Audio, aptX HD, aptX Adaptive</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>GPS</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>NFC</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Yes</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Radio</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>No</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>USB</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>USB Type-C 3.2, OTG, video output</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-data mt-2">
+                        <div class="sub-heading p-1">
+                          <h5 class="ms-3">Performance</h5>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Performance</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>
+                                AnTuTu: 1127931 (v9) GeekBench: 4916 (v6)
+                                GFXBench: 96fps (ES 3.1 onscreen)
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Display</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Contrast ratio: Infinite (nominal)</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Loudspeaker</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>-25.4 LUFS (Very good)</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-md-3">
+                            <div class="sub-heading-text ms-4">
+                              <p>Battery life</p>
+                            </div>
+                          </div>
+                          <div class="col-md-9">
+                            <div class="sub-heading-text ms-4">
+                              <p>Endurance rating 115h</p>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <hr class="custome-hr" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="reviews"
+                    role="tabpanel"
+                    aria-labelledby="reviews-tab"
+                  ></div>
+                </div>
+
+                <div class="content mt-3">
+                  <div class="table-responsive custom-table-responsive">
+                    <table class="table custom-table">
+                      <thead>
+                        <tr>
+                          <th scope="col"><h3>Pricing</h3></th>
+                          <th scope="col">
+                            <h6>64GB <br />4GB RAM</h6>
+                          </th>
+                          <th scope="col">
+                            <h6>128GB <br />6GB RAM</h6>
+                          </th>
+                          <th scope="col">
+                            <h6>128GB <br />8GB RAM</h6>
+                          </th>
+                          <th scope="col">
+                            <h6>256GB <br />8GB RAM</h6>
+                          </th>
+                          <th scope="col">
+                            <h6>1TB <br />16GB RAM</h6>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr scope="row">
+                          <td><img src="./images/priceo.png" alt="" /></td>
+                          <td>Rs. 2,79,999</td>
+                          <td>Rs. 2,99,999</td>
+                          <td>Rs. 3,15,999</td>
+                          <td>Rs. 3,35,999</td>
+                          <td>Rs. 4,49,999</td>
+                        </tr>
+                        <tr class="spacer">
+                          <td colspan="100"></td>
+                        </tr>
+                        <tr>
+                          <td><img src="./images/tele.png" alt="" /></td>
+                          <td>Rs. 2,68,999</td>
+                          <td>Rs. 2,98,999</td>
+                          <td>Rs. 3,14,999</td>
+                          <td>Rs. 3,34,999</td>
+                          <td>Rs. 4,48,999</td>
+                        </tr>
+                        <tr class="spacer">
+                          <td colspan="100"></td>
+                        </tr>
+                        <tr>
+                          <td><img src="./images/daraz.png" alt="" /></td>
+                          <td>Rs. 2,57,999</td>
+                          <td>Rs. 2,97,999</td>
+                          <td>Rs. 3,13,999</td>
+                          <td>Rs. 3,33,999</td>
+                          <td>Rs. 4,47,999</td>
+                        </tr>
+                        <tr class="spacer">
+                          <td colspan="100"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <p class="mt-5" style="font-size: 24px; font-weight: 600">
+                  Comments
+                </p>
+                <div class="card border-0 mt-4 mb-3">
+                  <div class="row">
+                    <div class="col-sm-1 col-xs-12">
+                      <img
+                        src="/images/10 pro plus.png"
+                        alt="..."
+                        style="border-radius: 50%; width: 3rem; height: 3rem"
+                      />
+                    </div>
+                    <div class="col-sm-11 col-xs-12" id="chat-ps-5">
+                      <h6 class="inline-elements">Yousaf Ali Jutt</h6>
+                      <p class="inline-elements ms-4">18-06-2023</p>
+                      <div class="card">
+                        <div class="container">
+                          <p>
+                            I want to Sell My Vivo V21e 10 On 10 Condition I
+                            want to Sell My Vivo V21e 10 On 10 Condition I want
+                            to Sell My Vivo V21e
+                          </p>
+                          <i
+                            style="color: rgba(27, 142, 242, 1)"
+                            class="fa fa-reply inline-elements"
+                          ></i>
+                          <p
+                            style="color: rgba(27, 142, 242, 1)"
+                            class="inline-elements"
+                          >
+                            Reply
+                          </p>
+                        </div>
+                        <hr />
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-1 col-xs-12">
+                              <img
+                                src="/images/10 pro plus.png"
+                                alt="..."
+                                style="
+                                  border-radius: 50%;
+                                  width: 3rem;
+                                  height: 3rem;
+                                "
+                              />
+                            </div>
+                            <div class="col-sm-11 col-xs-12" id="chat-ps-5">
+                              <h6 class="inline-elements">Shakee Ahmad</h6>
+                              <p class="inline-elements ms-4 mb-0">
+                                18-06-2023
+                              </p>
+                              <p>
+                                I want to Sell My Vivo V21e 10 On 10 Condition I
+                                want to Sell My Vivo V21e 10 On 10 Condition I
+                                want to Sell My Vivo V21e
+                              </p>
+                              <i
+                                style="color: rgba(27, 142, 242, 1)"
+                                class="fa fa-reply inline-elements"
+                              ></i>
+                              <p
+                                style="color: rgba(27, 142, 242, 1)"
+                                class="inline-elements"
+                              >
+                                Reply
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0 mb-3">
+                  <div class="row">
+                    <div class="col-sm-1 col-xs-12">
+                      <img
+                        src="/images/10 pro plus.png"
+                        alt="..."
+                        style="border-radius: 50%; width: 3rem; height: 3rem"
+                      />
+                    </div>
+                    <div class="col-sm-11 col-xs-12" id="chat-ps-5">
+                      <h6 class="inline-elements">Yousaf Ali Jutt</h6>
+                      <p class="inline-elements ms-4">18-06-2023</p>
+                      <div class="card">
+                        <div class="container">
+                          <p>
+                            I want to Sell My Vivo V21e 10 On 10 Condition I
+                            want to Sell My Vivo V21e 10 On 10 Condition I want
+                            to Sell My Vivo V21e
+                          </p>
+                          <i
+                            style="color: rgba(27, 142, 242, 1)"
+                            class="fa fa-reply inline-elements"
+                          ></i>
+                          <p
+                            style="color: rgba(27, 142, 242, 1)"
+                            class="inline-elements"
+                          >
+                            Reply
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h5 style="font-size: 24px; font-weight: 600" class="mt-5">
+                  Add a comment
+                </h5>
+                <div class="card border-0 mb-3">
+                  <div class="row">
+                    <div class="col-sm-1 col-xs-12">
+                      <img
+                        src="/images/10 pro plus.png"
+                        alt="..."
+                        style="border-radius: 50%; width: 3rem; height: 3rem"
+                      />
+                    </div>
+                    <div class="col-sm-11 col-xs-12" id="chat-ps-5">
+                      <h6 class="inline-elements">Ahmad</h6>
+                      <p class="inline-elements ms-4">18-06-2023</p>
+                      <div class="card border-0">
+                        <div class="container">
+                          <div class="row">
+                            <textarea
+                              id="myTextarea"
+                              placeholder="Type your comment..."
+                            ></textarea>
+                          </div>
+                          <button
+                            style="
+                              border-radius: 20px;
+                              background-color: rgba(255, 179, 37, 1);
+                            "
+                            class="btn mt-4"
+                          >
+                            Submit
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-12 mt-2">
+                <div class="container">
+                  <button class="btn btn-primary form-control" id="usedMobiles">
+                    Buy Used Mobiles
+                  </button>
+                  <button class="btn form-control mt-3" id="compareButton2">
+                    <img src="./images/compare.png" alt="" /> Compare
+                  </button>
+                  <div class="card text-center mt-3" id="heartCard">
+                    <div class="card-body mt-3">
+                      <img src="./images/Vector.png" alt="" />
+                      <div class="mt-3">
+                        <p class="mb-0">
+                          <strong> 732</strong>
+                        </p>
+                        <span class="mb-0">Become a Fan</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container" id="googleAd4">
+                    <div class="text-center">Google Ad</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="mt-4" style="font-size: 32px; font-weight: 640">
+              Similar Products
+            </p>
+            <div class="row mt-3">
+              <div class="col">
+                <div class="card mobCards mb-3">
+                  <div class="position-relative">
+                    <img
+                      src="./images/raxr 20023.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="cart-icon end-0">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p style="font-size: 18px; font-weight: 600">
+                      Motorola Razr 2023
+                    </p>
+                    <div class="d-flex mt-2">
+                      <span class="me-3">
+                        <img src="./images/display 1.png" alt="" /> 6.9
+                      </span>
+                      <span class="me-3">
+                        <img src="./images/storage 1.png" alt="" /> 256 GB
+                      </span>
+                      <span><img src="./images/ram1.png" alt="" /> 8 GB</span>
+                    </div>
+                    <div class="rating mt-3">
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i> <span>4.8</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <button type="button" id="compareButton">
+                        <img src="./images/compare.png" alt="" /> Compare
+                      </button>
+                      <p style="font-size: 18px; font-weight: 600">
+                        Rs. 3,777,77
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mobCards mb-3">
+                  <div class="position-relative">
+                    <img
+                      src="./images/10 pro plus.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="cart-icon end-0">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p style="font-size: 18px; font-weight: 600">
+                      Oppo Reno 10 Pro Plus
+                    </p>
+                    <div class="d-flex mt-2">
+                      <span class="me-3">
+                        <img src="./images/display 1.png" alt="" /> 6.74
+                      </span>
+                      <span class="me-3">
+                        <img src="./images/storage 1.png" alt="" /> 256 GB
+                      </span>
+                      <span><img src="./images/ram1.png" alt="" /> 8 GB</span>
+                    </div>
+                    <div class="rating mt-3">
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i> <span>4.8</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <button type="button" id="compareButton">
+                        <img src="./images/compare.png" alt="" /> Compare
+                      </button>
+                      <p style="font-size: 18px; font-weight: 600">
+                        Rs. 1,79,999
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mobCards mb-3">
+                  <div class="position-relative">
+                    <img
+                      src="./images/oopo F23.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="cart-icon end-0">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p style="font-size: 18px; font-weight: 600">Oppo F23</p>
+                    <div class="d-flex mt-2">
+                      <span class="me-3">
+                        <img src="./images/display 1.png" alt="" /> 6.9
+                      </span>
+                      <span class="me-3">
+                        <img src="./images/storage 1.png" alt="" /> 256 GB
+                      </span>
+                      <span><img src="./images/ram1.png" alt="" /> 8 GB</span>
+                    </div>
+                    <div class="rating mt-3">
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i>
+                      <i class="fa fa-star clicked"></i> <span>4.9</span>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                      <button type="button" id="compareButton">
+                        <img src="./images/compare.png" alt="" /> Compare
+                      </button>
+                      <p style="font-size: 18px; font-weight: 600">
+                        Rs. 84,999
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container" id="googleAd">Google Ad</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="mt-3" style="color: lightgray" />
+
+    <footer>
+      <div class="container mt-5">
+        <div class="row" id="footerDiv">
+          <div class="col-md-2">
+            <h5 style="font-size: 20px; font-weight: 600">About Us</h5>
+            <a href="#">
+              <p><img src="./images/Arrrow VV.png" alt="" /> About Us</p>
+            </a>
+            <a href="#">
+              <p><img src="./images/Arrrow VV.png" alt="" /> Advertise</p>
+            </a>
+            <a href="#">
+              <p><img src="./images/Arrrow VV.png" alt="" /> Contact Us</p>
+            </a>
+            <a href="#">
+              <p><img src="./images/Arrrow VV.png" alt="" /> Blog</p>
+            </a>
+          </div>
+          <div class="col-md-2" style="margin-top: 2.2rem">
+            <a href="#">
+              <p><img src="./images/Arrrow VV.png" alt="" /> Write For Us</p>
+            </a>
+            <a href="#">
+              <p><img src="./images/Arrrow VV.png" alt="" /> Privacy Policy</p>
+            </a>
+            <a href="#">
+              <p><img src="./images/Arrrow VV.png" alt="" /> Outsourcing</p>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <h5 style="font-size: 20px; font-weight: 600">
+              4G Internet Packages
+            </h5>
+            <a href="#">
+              <p>
+                <img src="./images/Arrrow VV.png" alt="" /> Ufone Internet
+                Packages
+              </p>
+            </a>
+            <a href="#">
+              <p>
+                <img src="./images/Arrrow VV.png" alt="" /> Jazz Internet
+                Packages
+              </p>
+            </a>
+            <a href="#">
+              <p>
+                <img src="./images/Arrrow VV.png" alt="" /> Zong Internet
+                Packages
+              </p>
+            </a>
+            <a href="#">
+              <p>
+                <img src="./images/Arrrow VV.png" alt="" /> Telenor Internet
+                Packages
+              </p>
+            </a>
+          </div>
+          <div class="col-md-2">
+            <h5 style="font-size: 20px; font-weight: 600">Follow Us</h5>
+            <a href="">
+              <div class="d-flex">
+                <img
+                  src="./images/facebook (1).png"
+                  alt=""
+                  style="width: 30px; height: 30px; border-radius: 50%"
+                />
+                <p style="margin-left: 10px">Facebook</p>
+              </div>
+            </a>
+            <a href="">
+              <div class="d-flex">
+                <img
+                  style="width: 30px; height: 30px; border-radius: 50%"
+                  src="./images/linkedin (1).png"
+                  alt=""
+                />
+                <p style="margin-left: 10px">Linkedin</p>
+              </div>
+            </a>
+            <a href="">
+              <div class="d-flex">
+                <img
+                  style="width: 30px; height: 30px; border-radius: 50%"
+                  src="./images/instagram (1).png"
+                  alt=""
+                />
+                <p style="margin-left: 10px">Instagram</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <h5 style="font-size: 20px; font-weight: 600">
+              Mobile Apps Coming Soon
+            </h5>
+            <a href="#" target="_blank">
+              <img class="mt-2" src="./images/play store.png" alt="" />
+            </a>
+            <a href="#" target="_blank">
+              <img class="mt-2" src="./images/app store.png" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <hr class="mt-5" style="color: #ebedec" />
+
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <h5 style="font-size: 20px; font-weight: 600">Disclaimer</h5>
+            <p style="font-size: 16px; font-weight: 400">
+              Mobilemall updates its mobile phone prices according to the local
+              brands and local mobile dealers (Samsung, Huawei, OPPO, Realme,
+              Vivo, Xiaomi, Nokia, Infinix, Techno and others). However, we
+              cannot guarantee that mobile prices are 100% accurate. To get the
+              exact prices, we recommend visiting your nearest mobile shop. Be
+              sure to only purchase official brand-warrantied PTA-approved
+              mobile phones. We provide prices for mobile phones across all
+              major cities of Pakistan, including (Karachi, Lahore, Faisalabad,
+              Rawalpindi, Gujranwala, Peshawar, Multan, Hyderabad, Islamabad,
+              Quetta, Bahawalpur, Sargodha, Sialkot, Sukkur, Larkana..)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 text-center" style="background-color: lightgray">
+        <p class="pt-2">Copyright © 2023 - Phone Pulse</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+p, h1, h2, h3, h4, h5, h6 span div button li a {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+.btn-circle {
+  border-radius: 50%;
+  background-color: #f00; 
+  color: #fff; 
+  padding: 0.5rem 0.75rem;
+}
+
+.btn-outline-circle {
+  border-radius: 50%;
+  border: 2px solid #f00;
+  color: #f00; 
+  padding: 0.5rem 0.75rem;
+}
+
+.btn-circle:hover,
+.btn-outline-circle:hover {
+  color: #fff; 
+  text-decoration: none;
+}
+
+
+.list-group-item.active {
+  background-color: blue !important;
+  color: white;
+}
+
+.list-group-item.active::before {
+  content: '\2713';
+  float: left;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+.black-bar {
+  background-color: black;
+  color: white;
+}
+.vertical-bar {
+  width: 3px;
+  height: 25px;
+  background-color: white;
+}
+
+

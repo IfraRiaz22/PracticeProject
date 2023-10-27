@@ -1,0 +1,194 @@
+@media screen and (max-width: 531px) {
+    #smallScreen {
+      text-align: center;
+
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .mobCards{
+      min-width: 15.1rem;
+      min-height: 17.4rem;
+    }
+  }
+  @media screen and (max-width: 531px) {
+    .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+#ListOfMobSpecification{
+min-width: 12rem;
+  
+}
+#smallScreen{
+  padding-left: 5rem;
+}
+}
+  .card-header {
+    background-color: rgba(235, 237, 236, 1);
+    font-size: 18px;
+    font-style: semibold;
+    font-weight: 600;
+    
+  }
+  #ListOfMobSpecification {
+    border-color: rgba(235, 237, 236, 1);
+    border-radius: 9px;
+  }
+  #ListOfMobSpecification a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #ListOfMobSpecification img {
+    float: right;
+    margin-top:8px;
+  }
+  .list-group {
+  
+    color:  rgba(235, 237, 236, 1);
+  }
+ 
+
+  #googleAd1 {
+    background-color: rgb(206, 206, 206);
+    height: 500px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #upcomingConatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    /* padding: 10px; */
+ 
+  }
+
+  #upcomingConatiner p {
+    margin: 0;
+    flex: 1;
+  }
+
+  #upcomingConatiner button {
+    background-color: #ffffff;
+    border-color: rgba(235, 237, 236, 1);
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 11rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 768px) {
+    #upcomingConatiner {
+      flex-direction: column;
+    }
+     h2, button {
+      margin: 10px;
+    }
+    button {
+      width: 100%;
+    }
+  }
+
+  .mobCards {
+    width: 170px;
+    height: 260px;
+    border-color: rgb(235, 237, 236);
+    gap: 0;
+
+  }
+  .mobCards p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .mobCards h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .rating {
+    color: rgb(242, 164, 22);
+    font-size: 9px;
+  }
+  .rating span {
+    font-size: 11px;
+  }
+  #compareButton {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(235, 237, 236);
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #googleAd2 {
+    background-color: rgb(206, 206, 206);
+    height: 158px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  #footerDiv a{
+    text-decoration: none;
+    color: black;
+  }
+  .btn-circle {
+      border-radius: 50%;
+      padding: 1rem 1.25rem;
+    }
+
+    .btn-outline-circle {
+      border-radius: 50%;
+      border: 1px solid lightgray; /* Replace with desired outline color */
+      color: black; /* Replace with desired text color */
+      padding: 1rem 1.25rem;
+    }
+
+    .btn-circle:hover,
+    .btn-outline-circle:hover {
+      color: black; /* Replace with desired text color on hover */
+      text-decoration: none;
+    }
+
+    .list-group-item.active {
+      background-color: blue !important;
+      color: white;
+    }
+
+    .list-group-item.active::before {
+      float: left;
+      margin-top: 1px;
+      margin-right: 5px;
+    }
+
+    .arrow-icon {
+      border-radius: 50%;
+      border: 1px solid lightgray; /* Replace with desired outline color */
+      color: black; /* Replace with desired text color */
+      padding: 0.87rem 1.25rem;
+    }
+
+    .arrow-icon.active {
+      border-radius: 50%;
+      border: 1px solid blue; /* Replace with desired outline color */
+      color: blue; /* Replace with desired text color */
+      padding: 0.87rem 1.25rem;
+    }
+    #footerDiv p{
+      font-size: 16px;
+    }
